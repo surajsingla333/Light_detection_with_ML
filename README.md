@@ -11,13 +11,17 @@ If there is sudden change in intensity of light the device will send a SMS to th
 It can be build to send an email or a tweet on twitter.
 
 Devices used :
+
 Bolt IoT module.
 LDR.
 
 Software: 
-Python3
+
+Python3,
 Twilio(for SMS sending)
 
 File Description:
-"config.py" has the configuration details for the device and twilio api.
+
+"conf.py" has the configuration details for the device and twilio api.
+
 "anomaly_detection.py" has the code to do the task.
